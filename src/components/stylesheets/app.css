@@ -1,0 +1,40 @@
+body {
+    background-color: #FFFFFF;
+}
+.app {
+    width:780px;
+    margin:0 auto;
+    margin-top:80px;
+}
+.redberryText {
+    margin:0 auto;
+    background-image: url('./icons/redberyyText.png');
+    width:112px;
+    height:18px;
+}
+.homeImage {
+    margin:0 auto;
+    background-image: url('./icons/homeImage.png');
+    width:780px;
+    height:482px;
+    margin-top:85px;
+}
+.buttonsCont {
+    margin-top:123px;
+}
+.buttons {
+    width:267px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    font-size:20px;
+    font-weight: 500;
+    line-height: 24px;
+    display: block;
+    background-color: #62A1EB;
+    border-radius: 8px;
+    padding:18px 60px;
+    margin:0 auto;
+    font-family: Helvetica Neue;
+    margin-bottom: 26px;
+}
