@@ -66,3 +66,43 @@
 .otherInfo {
     padding:54px 0;
 }
+@media only screen and (max-width: 500px) {
+    .mainCont {
+        padding-top: 40px;
+    }
+    .mainCont h1 {
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+        color:#000000;
+    }
+    .infoContainer {
+        width:390px;
+        margin: 0 auto;
+        margin-top:84px;
+    }
+    .infoContainer div {
+        width:390px;
+        display: flex;
+        flex-direction: column;
+    }
+    .infoContainer div table {
+        width:358px;
+        margin:0 auto;
+        border:none;
+    }
+    .mainInfo img{
+        width:358px;
+        margin:0 auto;
+        height:342px;
+    }
+    .infoContainer div table tr th {
+        font-size:14px;
+    }
+    .infoContainer div table tr td {
+        font-size:14px;
+    }
+}
