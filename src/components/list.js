@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import './stylesheets/list.css';
 
 const List = () => {
-    const helo  = '22'
     return (
         <div className='list'>
             <NavLink to="/" className='backIcon'></NavLink>
