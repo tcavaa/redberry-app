@@ -1,0 +1,71 @@
+.formContainer {
+    display:flex;
+    flex-direction: column;
+}
+.formLabel {
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    display:block;
+    margin-bottom: 8px;
+}
+.formInput {
+    border:1.8px solid #8AC0E2;
+    border-radius: 8px;
+    padding:20px 16px;
+    width:100%;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+    font-size: 16px;
+}
+.namesCont {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.namesCont div{
+    width:45%;
+}
+.formContainer div.padding {
+    margin-bottom:48px;
+}
+.helperText {
+    color: #2E2E2E;
+    font-size:14px;
+    font-weight:300;
+    font-family: 'Helvetica Neue';
+}
+.selectOption {
+    border:none;
+    margin-bottom:48px;
+    background-color: #EBEBEB;
+    border-radius:8px;
+    padding:20px 30px;
+    width:105%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("./icons/down.png");
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: 20px;
+    background-size: 15px;
+}
+.button {
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    font-size:20px;
+    font-weight: 500;
+    line-height: 24px;
+    display: block;
+    background-color: #62A1EB;
+    border-radius: 8px;
+    padding:18px 45px;
+    font-family: Helvetica Neue;
+    width:176px;
+    border:none;
+    margin-left:83%;
+}

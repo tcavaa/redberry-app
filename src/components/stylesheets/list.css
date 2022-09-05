@@ -1,0 +1,74 @@
+.backIcon {
+    background: url('./icons/vectorBack.png') no-repeat center #D9D9D9;
+    border-radius:30px;
+    position:absolute;
+    top:53px;
+    left:70px;
+    width:53px;
+    height:53px;
+}
+.list {
+    padding-top: 79px;
+}
+.list h1 {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 21px;
+    text-align: center;
+    color:#000000;
+}
+.listContainer {
+    width: 1170px;
+    margin:0 auto;
+    margin-top:100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.listItem {
+    width:531px;
+    height:178px;
+    padding:14px;
+    background-color:#EAFAFF;
+    border: 1px solid #AED1EA;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-top:55px;
+}
+.listItem a.image, img {
+    width:266px;
+    height: 178px;
+    background-color: red;
+    border-radius: 10px;
+}
+.listItem div {
+    width: 240px;
+}
+.listItem h2 {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top:30px;
+}
+.listItme p {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.seemore {
+    color:#4386A9;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    display: block;
+    margin-top:50px;
+}

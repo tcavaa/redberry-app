@@ -1,0 +1,78 @@
+body {
+    background-color: #F6F6F6;
+}
+.tabsContainer {
+    width:1226px;
+    margin:0 auto;
+    margin-top:91px;
+}
+.redberryText {
+    margin:0 auto;
+    background-image: url('./icons/redberyyText.png');
+    width:112px;
+    height:18px;
+}
+.tabs {
+    width: 650px;
+    margin:0 auto;
+}
+.MuiTab-root {
+    color:#232323 !important;
+    font-weight: 700 !important;
+    font-size:20px !important;
+    margin-right:66px !important;
+}
+.Mui-selected {
+    color:#232323 !important;
+    font-weight: 700 !important;
+}
+.MuiTabs-indicator {
+    width:22% !important;
+    background-color:#000000 !important;
+    height:2px !important;
+    margin-left: 7%;
+}
+.tabPanel {
+    background-color: white;
+    margin-top:27px;
+    border-radius: 18px;
+    padding:96px 174px 44px 174px;
+}
+.backIcon {
+    background: url('./icons/vectorBack.png') no-repeat center #D9D9D9;
+    border-radius:30px;
+    position:absolute;
+    top:53px;
+    left:70px;
+    width:53px;
+    height:53px;
+}
+.successPhoto {
+    background: url('./icons/success.png') no-repeat center;
+    width: 235px;
+    height: 258px;
+    margin:0 auto;
+    margin-top:80px;
+}
+.succtext {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+}
+.mrgnaut {
+    margin:0 auto;
+}
+.marginnn {
+    margin-top:50px;
+    margin-bottom:20px;
+}
+.wd {
+    width:150px !important;
+    text-decoration: none;
+    text-align: center !important;
+    margin:0 auto !important;
+    margin-left:375px !important;
+}
