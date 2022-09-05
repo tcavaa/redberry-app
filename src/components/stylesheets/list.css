@@ -72,3 +72,70 @@
     display: block;
     margin-top:50px;
 }
+@media only screen and (max-width: 500px) {
+    .list {
+        padding-top: 40px;
+    }
+    .list h1 {
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+        color:#000000;
+    }
+    .listContainer {
+        width: 390px;
+        margin:0 auto;
+        margin-top:100px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .listItem {
+        width:358px;
+        height:105px;
+        padding:14px;
+        background-color:#EAFAFF;
+        border: 1px solid #AED1EA;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        margin-top:55px;
+    }
+    .listItem a.image, img {
+        width:164px;
+        height: 109px;
+        background-color: red;
+        border-radius: 10px;
+    }
+    .listItem div {
+        width: 180px;
+    }
+    .listItem h2 {
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        margin-top:15px;
+    }
+    .listItme p {
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .seemore {
+        color:#4386A9;
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        display: block;
+        margin-top:20px;
+    }
+}

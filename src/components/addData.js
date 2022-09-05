@@ -79,6 +79,7 @@ const AddData = () => {
       <TabPanel value={value} index={1}>
         <LaptopFrom handleOpen={handleOpen} handleNext={handleNext}/>
       </TabPanel>
+      <div className='redberryLogo'></div>
       <Modal
         open={open}
         aria-labelledby="modal-modal-title"
