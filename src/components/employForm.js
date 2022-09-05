@@ -50,7 +50,6 @@ const EmployForm = ({handleNext}) => {
     
       useEffect(() => {
         listSelects();
-        API.postlaptop('data');
       }, []);
 
       
