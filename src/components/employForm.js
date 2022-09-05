@@ -52,8 +52,6 @@ const EmployForm = ({handleNext}) => {
         listSelects();
       }, []);
 
-      
-
     return (
         <div className='formContainer'>
             <form onSubmit={handleSubmit(onSubmit)}>
@@ -73,7 +71,7 @@ const EmployForm = ({handleNext}) => {
                     <option value='' disabled selected>თიმი</option>
                     {
                         teams.map((team) =>(
-                            <option key={team.id} value={team.id}>{team.name}</option>
+                            <option key={team.id} value={team.name}>{team.name}</option>
                         ))
                     }
                 </select>
@@ -81,7 +79,7 @@ const EmployForm = ({handleNext}) => {
                     <option value="" disabled selected>პოზიცია</option>
                     {
                         positions.map((position) =>(
-                            <option key={position.id} value={position.id}>{position.name}</option>
+                            <option key={position.id} value={position.name}>{position.name}</option>
                         ))
                     }
                     
