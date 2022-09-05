@@ -15,7 +15,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/List" element={<List />} />
         <Route path="/addData" element={<AddData />} />
-        <Route path="/LaptopInfo/:id" element={<LaptopInfo />} />
+        <Route path="/LaptopInfo" element={<LaptopInfo />} />
         <Route
           path="*"
           element={
