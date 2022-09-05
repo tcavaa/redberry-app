@@ -76,6 +76,13 @@ body {
     margin:0 auto !important;
     margin-left:375px !important;
 }
+.redberryLogo {
+    background: url('./icons/roundLogo.png') no-repeat center;
+    width:85px;
+    height:85px;
+    margin:0 auto;
+    padding:65px 0;
+}
 @media only screen and (max-width: 500px) {
     .tabsContainer {
         width:390px;
@@ -103,5 +110,8 @@ body {
     }
     .tabPanel {
         padding:0;
+    }
+    .redberryLogo {
+        display:none;
     }
 }
